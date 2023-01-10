@@ -264,7 +264,9 @@ section .title::after{
     color: rgba(126,87,194,.6);
     background: none;
 }
-
+a{
+    color: #ffffff;
+}
 /* about section styling */
 .about .title::after{
     content: "who i am";
@@ -457,6 +459,7 @@ section .title::after{
 }
 .blog .carousel .card .text{
     font-size: 25px;
+    color: #ffffff;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -481,7 +484,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid rgba(126,87,194,.6)!important;
+    border: 2px solid white!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
